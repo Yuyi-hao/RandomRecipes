@@ -36,11 +36,7 @@ class App():
         photo = PhotoImage(file = "assets\RRecipe_logo.png")
         window.iconphoto(False, photo)
         window.eval("tk::PlaceWindow . center") # eval method execute command in tcl language
-        # place window at centre 
-        # midw_of_screen = int(window.winfo_screenwidth()*0.35)
-        # midh_of_screen = int(window.winfo_screenheight()*0.1)
-        # window.geometry("500x600+" + str(midw_of_screen) + '+' + str(midh_of_screen))
-
+        
         # create a frame
         self.frame1 = Frame(window, width = 500, height = 600, bg = BGCOLOR)
         self.frame2 = Frame(window, bg = BGCOLOR)
